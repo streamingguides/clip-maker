@@ -8,10 +8,8 @@ cd /workspaces/clip-maker || exit 0
 export PATH="$HOME/.local/bin:$PATH"
 LOG=/tmp/clipmaker-setup.log
 
-# Do the whole setup once per container, in the background.
-if [ -f /tmp/clipmaker-setup-started ]; then
-  exit 0
-fi
+# Do the heavy setup once per container, in the background.
+if [ ! -f /tmp/clipmaker-setup-started ]; then
 touch /tmp/clipmaker-setup-started
 
 (
@@ -59,6 +57,17 @@ touch /tmp/clipmaker-setup-started
     echo "server launched pid $!" >> "$LOG"
   fi
   echo "=== setup script finished $(date -u) ===" >> "$LOG"
+) > /dev/null 2>&1 &
+fi
+
+# Always (even on later restarts of the same container): make sure the
+# server is up and the public tunnel is running, then publish its URL.
+(
+  export PATH="$HOME/.local/bin:$PATH"
+  if ! curl -s -o /dev/null http://localhost:3000/; then
+    nohup npx tsx server.ts > /tmp/clipmaker.log 2>&1 &
+  fi
+  bash .devcontainer/start-tunnel.sh >> "$LOG" 2>&1
 ) > /dev/null 2>&1 &
 
 exit 0
