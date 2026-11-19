@@ -1,0 +1,134 @@
+{
+  "campaigns": [
+    {
+      "allowedPlatforms": [
+        "TikTok",
+        "Instagram Reels",
+        "YouTube Shorts",
+        "X"
+      ],
+      "campaignName": "Vyro Campaign (rename this in config/campaigns.json)",
+      "clipLength": {
+        "defaultSec": 30,
+        "maxSec": 60,
+        "minSec": 15
+      },
+      "defaultRatio": "9:16",
+      "disclosureText": "#ad",
+      "faceVisibleRequired": true,
+      "id": "vyro-template",
+      "noteLine": "Only clip footage from Vyro campaigns you have joined — joining a campaign is the permission to use its footage.",
+      "platform": "Vyro",
+      "requiredHashtags": [],
+      "requiredMention": "",
+      "submitChecklist": [
+        "Only post clips from a campaign you have joined on Vyro. Use only the footage that campaign names.",
+        "Post only on TikTok, Instagram Reels, YouTube Shorts, or X. Facebook views do NOT count on Vyro.",
+        "Submit the post link on Vyro IMMEDIATELY after posting — views count from the moment you submit the link, not from when you posted.",
+        "Each post must reach 5,000 views on its own before it earns anything.",
+        "Do not delete the post while the campaign is running.",
+        "No duplicate reposting of the same clip, and no fake or botted views — both are Vyro violations."
+      ]
+    },
+    {
+      "allowedPlatforms": [
+        "TikTok",
+        "Instagram Reels",
+        "YouTube Shorts"
+      ],
+      "campaignName": "Dylan Page — GTA 6 120-hour Marathon",
+      "clipLength": {
+        "defaultSec": 30,
+        "maxSec": 60,
+        "minSec": 15
+      },
+      "defaultRatio": "9:16",
+      "disclosureText": "#ad",
+      "faceVisibleRequired": true,
+      "id": "content-rewards-dylan-page",
+      "noteLine": "Content Rewards (Whop) campaign — NOT Vyro. Join the campaign first; joining is the permission to use its footage. The 120-hour marathon ends when the stream ends, so this window is only a few days.",
+      "platform": "Content Rewards (Whop)",
+      "requiredHashtags": [
+        "#DylanPage"
+      ],
+      "requiredMention": "",
+      "submitChecklist": [
+        "Only clip footage from the Dylan Page GTA 6 marathon campaign you joined. Use only the footage the campaign names.",
+        "Dylan must be visible in the clip, and #DylanPage must be in the caption.",
+        "Rate $1.00 per 1,000 views — per clip minimum $10, maximum $250. Budget $5,000 (as of 18 Nov 2026).",
+        "Post only on TikTok, Instagram Reels, or YouTube Shorts. Submit the post link on Content Rewards within 30 minutes of posting — views count from submission, not from posting.",
+        "Do not delete the post while the campaign is running.",
+        "No duplicate reposting of the same clip, and no fake or botted views.",
+        "Remove GTA radio music — keep game sound + streamer's voice only. Licensed music brings a claim.",
+        "No story spoilers (mission endings) and no leaked footage — only released footage named in the brief.",
+        "Join karne se pehle campaign page pe final rate, bacha hua budget aur allowed platforms check kar lo — rates roz badalte hain."
+      ]
+    },
+    {
+      "allowedPlatforms": [
+        "TikTok",
+        "Instagram Reels",
+        "YouTube Shorts"
+      ],
+      "campaignName": "KreekCraft — GTA 6",
+      "clipLength": {
+        "defaultSec": 30,
+        "maxSec": 60,
+        "minSec": 15
+      },
+      "defaultRatio": "9:16",
+      "disclosureText": "#ad",
+      "faceVisibleRequired": true,
+      "id": "content-rewards-kreekcraft",
+      "noteLine": "Content Rewards (Whop) campaign — NOT Vyro. Join the campaign first; joining is the permission to use its footage.",
+      "platform": "Content Rewards (Whop)",
+      "requiredHashtags": [],
+      "requiredMention": "",
+      "submitChecklist": [
+        "Only clip footage from the KreekCraft GTA 6 campaign you joined. Use only the footage the campaign names.",
+        "The stream overlay MUST stay visible in every clip — facecam / overlay section must not be cropped out, or the clip will not count.",
+        "Rate $1.00 per 1,000 views — per clip $2 to $400. Budget $6,824 (as of 18 Nov 2026).",
+        "Post only on TikTok, Instagram Reels, or YouTube Shorts. Submit the post link on Content Rewards within 30 minutes of posting — views count from submission, not from posting.",
+        "Do not delete the post while the campaign is running.",
+        "No duplicate reposting of the same clip, and no fake or botted views.",
+        "Remove GTA radio music — keep game sound + streamer's voice only. Licensed music brings a claim.",
+        "No story spoilers (mission endings) and no leaked footage — only released footage named in the brief.",
+        "Join karne se pehle campaign page pe final rate, bacha hua budget aur allowed platforms check kar lo — rates roz badalte hain."
+      ]
+    },
+    {
+      "allowedPlatforms": [
+        "TikTok",
+        "Instagram Reels",
+        "YouTube Shorts"
+      ],
+      "campaignName": "Kai Cenat — GTA 6 ($10,000 Pool)",
+      "clipLength": {
+        "defaultSec": 30,
+        "maxSec": 60,
+        "minSec": 15
+      },
+      "defaultRatio": "9:16",
+      "disclosureText": "#ad",
+      "faceVisibleRequired": true,
+      "id": "content-rewards-kai-cenat",
+      "noteLine": "Content Rewards (Whop) campaign — NOT Vyro. Pool campaign: the $10,000 pool pays only after 750,000 approved views in total. Use only as a moonshot — 2–3 test clips of the biggest moments. Join the campaign first; joining is the permission to use its footage.",
+      "platform": "Content Rewards (Whop)",
+      "requiredHashtags": [
+        "#KaiCenat"
+      ],
+      "requiredMention": "",
+      "submitChecklist": [
+        "Only clip footage from the Kai Cenat GTA 6 campaign you joined. Source: Twitch VOD (twitch.tv/kaicenat/videos) or the Kai Cenat Live YouTube channel.",
+        "A clip counts toward the pool only once it reaches 1,000 views. The $10,000 pool unlocks at 750,000 total approved views.",
+        "Use #KaiCenat in the caption and keep Kai's face/reaction visible.",
+        "Post only on TikTok, Instagram Reels, or YouTube Shorts. Submit the post link on Content Rewards within 30 minutes of posting — views count from submission, not from posting.",
+        "Do not delete the post while the campaign is running.",
+        "No duplicate reposting of the same clip, and no fake or botted views.",
+        "Remove GTA radio music — keep game sound + streamer's voice only. Licensed music brings a claim.",
+        "No story spoilers (mission endings) and no leaked footage — only released footage named in the brief.",
+        "Join karne se pehle campaign page pe final rate, bacha hua budget aur allowed platforms check kar lo — rates roz badalte hain."
+      ]
+    }
+  ]
+}

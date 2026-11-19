@@ -1,0 +1,9 @@
+services:
+  clip-maker:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./storage:/app/storage
+      - ./config:/app/config
+    restart: unless-stopped
