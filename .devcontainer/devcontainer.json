@@ -1,0 +1,1 @@
+{"customizations":{"vscode":{"settings":{}}},"forwardPorts":[3000],"image":"mcr.microsoft.com/devcontainers/universal:2","name":"Clip Maker (Codespaces auto-start)","portsAttributes":{"3000":{"label":"Clip Maker","visibility":"public"}},"postStartCommand":"bash .devcontainer/start-tool.sh"}
